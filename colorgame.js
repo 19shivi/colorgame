@@ -22,7 +22,7 @@ for(var i=0;i<3;i++)
 	for(var i=3;i<6;i++)
 {
 	square[i].style.display="none";}
-	header.style.backgroundColor="blue";
+	header.style.backgroundColor="skyblue";
 trytry.textContent=("CLICK ????");
 
 });
@@ -39,7 +39,7 @@ for(var i=0;i<square.length;i++)
 	square[i].style.backgroundColor=colors[i];}
 pickedcolor=colors[Math.floor(Math.random()*square.length)];
 rgb.textContent=pickedcolor;
-header.style.backgroundColor="blue";
+header.style.backgroundColor="skyblue";
 trytry.textContent=("CLICK ????");
 });
 
