@@ -101,7 +101,7 @@ for(var i=0;i<square.length;i++)
 	square[i].style.backgroundColor=colors[i];}
 pickedcolor=colors[Math.floor(Math.random()*square.length)];
 rgb.textContent=pickedcolor;
-header.style.backgroundColor="steelblue";
+header.style.backgroundColor="skyblue";
 trytry.textContent=("CLICK ????");
 });
 
